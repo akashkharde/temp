@@ -1,0 +1,28 @@
+{
+  "name": "transport",
+  "version": "1.0.0",
+  "description": "<!-- Readme.md -->",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashkharde/temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akashkharde/temp/issues"
+  },
+  "homepage": "https://github.com/akashkharde/temp#readme",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
