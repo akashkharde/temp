@@ -14,21 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 
 //  db connection  
 
-app.get("/api/health", (req, res) => {
-  res.status(200).json({
-    success: true,
-    message: "Transpor hjgjhkjhkjhkjhkjhkjhkj is running",
-    timestamp: new Date().toISOString(),
-  });
-});
-
-// 404 handler
-app.use((req, res) => {
-  res.status(404).json({
-    success: false,
-    message: "Route not found",
-  });
-});
+// routes 
+app.use("/api", router);
 
 // Start server
 app.listen(PORT, () => {

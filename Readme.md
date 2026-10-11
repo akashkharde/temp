@@ -22,3 +22,25 @@ udya
   <!-- api type  get post put patch delete  -->
   <!-- status code  -->
   <!-- postman use case  -->
+
+
+ # models 
+ - user.js
+    -  name 
+    - email
+    - password
+    - phone number 
+
+api POST  register   
+<!-- api POST login  -->
+<!-- APi GETlogout -->
+
+JWT enctyption not needed currently 
+token not needed 
+
+
+code flow 
+
+index.js -> routes -> controller -> service ->  model 
+
+
